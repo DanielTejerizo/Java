@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+    <head>
+        <title>Ejercicio Didactico</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+
+        <a href="/EjercicioDidac/EjercicioDida?p1=v1&p2=v2&p3=v3">Vamoh pal servlet</a>
+        <br><br>
+        <form action="/EjercicioDidac/EjercicioDida" method="post">
+                <label>Nombre:</label> <br>
+                <input type="text" name="nombre" value="" size="20" /> <br>
+                <label>Apellidos:</label>  <br>
+                <input type="text" name="apellidos" value="" size="20" /> <br>
+                <label>Edad:</label> <br>
+                <input type="number" name="edad" value="" size="20" /><br>
+                <label>Ciudades:</label> <br>
+                        <select name="ciudad" multiple="multiple">
+                            <Option value="valladolid">Valladolid</option>
+                            <Option value="madrid">Madrid</option>
+                            <Option value="sevilla">Sevilla</option>
+                        </select>
+                <br><br>
+                <input type="submit" value="enviar"/>
+        </form>
+    </body>
+</html>
