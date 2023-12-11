@@ -10,8 +10,13 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit thi
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-        <form action="http://localhost:8080/InfoURL/InfoURL">
-            <input type="submit" value="Ejecutar" />
+        <a href="/InfoURL/InfoURL">Ejecutar sin parametros</a><br>
+        
+        <a href="/InfoURL/InfoURL?p1=v1&p2=v2">Ejecutar con parametros</a>
+        
+        
+        <form method="post" action="http://localhost:8080/InfoURL/InfoURL">
+            <input type="submit" value="Usar el metodo post" />
         </form>
     </body>
 </html>
