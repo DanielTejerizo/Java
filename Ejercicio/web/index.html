@@ -1,0 +1,38 @@
+<!-- index.jsp -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario y Enlace</title>
+</head>
+<body>
+
+    <h1>Index.jsp</h1>
+
+    <!-- Enlace con parámetros -->
+    <a href="EjercicioD?p1=v1&p2=v2&p3=v3">Enlace a Servlet</a>
+
+    <!-- Formulario con método POST -->
+    <form action="EjercicioD" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" name="nombre" required><br>
+        
+        <label for="apellidos">Apellidos:</label>
+        <input type="text" name="apellidos" required><br>
+        
+        <label for="edad">Edad:</label>
+        <input type="text" name="edad" required><br>
+        
+        <label for="ciudad">Ciudad:</label>
+        <select name="ciudad">
+            <option value="opcion1">Ciudad 1</option>
+            <option value="opcion2">Ciudad 2</option>
+            
+        </select><br>
+
+        <input type="submit" value="Enviar">
+    </form>
+
+</body>
+</html>
