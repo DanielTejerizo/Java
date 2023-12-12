@@ -29,7 +29,7 @@ public class Servlet extends HttpServlet {
             out.println("<h1>09-ParametrosInicializacion - Lectura de los parámetros de inicialización</h1><hr />");
             
             out.println("<h2>Conociendo los nombres de los parámetros</h2>");
-            out.println("<br /><b>Modelo:</b> " + getInitParameter("modelo"));
+            out.println("<br /><b>Modelo:</b> " + getInitParameter("modelo")); //Los parametros estan en WEB-IND/web.xml
             out.println("<br /><b>Marca:</b> " + getInitParameter("marca"));
             
             //No es necesario conocer los nombres de los parámetros de inicialización
