@@ -34,7 +34,7 @@ public class Inversion extends HttpServlet {
                 resultado[i][0] = resultado[i - 1][2] * (interes / 100);
             }
             RequestDispatcher rd = null;
-            rd = getServletContext().getRequestDispatcher("/inv.jsp");
+            rd = getServletContext().getRequestDispatcher("/inv0.jsp");
             request.setAttribute("resultado", resultado);
             rd.forward(request, response);
         } finally {
