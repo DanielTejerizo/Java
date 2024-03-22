@@ -1,0 +1,5 @@
+Desarolla una app java web, con jsp y javabeans en el index se mostrara un enlace que lleve al segundo jsp, que tenga y visualice por panatlla un listado de empeadops con salario menor
+que la media del salario de los empleados de su departamento odenado por salario ascendente. Mostrar el nº de empleado, el apellido, el nº de dto y el salario. Este segundo jsp tendrá
+un enlace que nos lleve a un tercer jsp. La informacion obtenida en el 2do jsp será enviada al tercer jsp (mediante los mecanismos vistos en clase) que actualizará la tabla empleados,
+aumentando en un 20% el salario de los empleados obtenidos en el segundo jsp. El tercer jsp mostrará por pantalla "Actializacion completa" y tendrá tambien un enlace para volver al 
+index.jsp

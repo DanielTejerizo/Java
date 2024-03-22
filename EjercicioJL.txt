@@ -1,0 +1,3 @@
+Realizar un proyecto web wn java realizando un modelo vista-controlador donde emplees un xml con servlets con clases y java bins necesarios.
+En el index.html habra un enlace que al pinchar me muestre el num de personas por oficio de cada dpto, mostrar por pantalla el nº dpto, nombre
+de departamento, oficio y nº personas.

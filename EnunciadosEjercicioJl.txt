@@ -1,0 +1,10 @@
+1. aplicacion web java con vista controlador, para acceder a una bdd mysql mediante jdbc donce emplees servlets, jsp's y javabeans necesarios
+ademas de un index.html que se utilizará para lanzar la aplicación. La pagina web inicial tendrá un enlace para calcular y mostrar por pantalla
+los datos de la cuenta o cuentas con más movimientos, mostrando el nombre de la cuenta y en nº de movimientos. Mostrar también un enlace para
+volver al index.
+
+3. Desarrolla una aplicacion web java solo con jsp y javabeans. En el index se mostrará un enlace que nos lleve a un segundo jsp que obtenga para
+cada pais el nº de ciudades diferentes, el nº de clientes y la media del limite de credito. Este segundo jsp además tendrá un enlace para llevar a otro
+jsp que actualizará la tabla clientes 2, incrementando en 5000€ el limite de credito de los paises obtenidos en el jsp anterior, que tengan una
+media del limite de credito menor de 47000€. Este tercer jsp mostrará por pantalla actualizacion completa y tendra tambien un enlace para volver
+al index.jsp. Utilizar la tabla clientes 2

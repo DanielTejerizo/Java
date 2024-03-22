@@ -1,0 +1,4 @@
+1- Aplicacion web java con patron MVC para acceder a bdd mysql mediante jdbc, donde emplees servlets, jsp, las clases y javabeans necesarios. Ademas de un index.html que se usará para
+lanzar la aplicación. En la bdd tenemos los encargos realizados por clientes y los vendedores que les atienden. La pagina inicial tendrá un enlace para mostrar por pantalla los clientes
+que realizaron encargos, donde cada cliente debe tener una cuenta por pagar menor que la media de la cuenta por pagar de su categoria, y su vendedor una comisión mayor del 12%. 
+Mostrar el identificador del cliente, el nombre del cliente y su categoria. Mostrar tambien un enlace para volver al index.

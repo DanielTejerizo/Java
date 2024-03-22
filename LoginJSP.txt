@@ -1,0 +1,3 @@
+Login con un unico fichero con un formulario para que el usuario se loguee con usuario y contraseña, usuarios validos: array bidimensional 
+con usuario y clave. Controlar si lo que mete el usuario coincide con los datos de la base de datos, si coincide se mostrará en pantalla:
+"Bienvenido", y si no, se seguira mostrando el formulario.
